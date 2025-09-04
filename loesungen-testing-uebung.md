@@ -1,0 +1,25 @@
+## Testing – Lösungen (sehr kurz)
+
+- A1: Fehler finden, Risiko senken.
+- A2: Nein.
+- A3: Neugierig/skeptisch/risikobewusst. Dies sind alles sehr gute Merkmale, die überall nützlich sind.
+- A4: Viele Unit, weniger Integration, wenige E2E. Die Bauen auf einander drauf
+- A5.1 Klassen – RecommendationEngine (Scores/Filter/Sort). Unit-Tests: leerer Verlauf -> Trending; Top‑N sortiert; Kindprofil filtert 18+.
+- A5.1 Klassen – PlaybackController (Play/Pause/Seek/Buffering). Unit-Tests: Toggle State+Event; Netzfehler -> buffering+Retry; Seek ±50ms.
+- A5.2 Integration – Suche×Katalog: Query->API->UI; Pagination+Filter. Empfehlungen×Personalisierung: Scores ändern Startseite; Profilwechsel sofort sichtbar.
+- A5.3 System – Registrierung→Abo→Abspielen. Gerät A starten, Gerät B fortsetzen (Resume/DRM).
+- A5.4 Acceptance – Eltern: Kinderprofile nur FSK‑gerecht. Offline: Download HD, Wiedergabe ohne Netz.
+- A6: White‑Box.
+- A7: wenn ich -> black-box wenn die Regierung -> white-box.
+- A8: Gray‑Box.
+- A9: Gray‑Box.
+- A10: Smartphone Smoke: Boot, WLAN, Anruf, Kamera.
+- A11: Wenn ich ein Dokument speichere, dann soll es auch auf eine höhere version verwendbar werden.
+- A12: Smartwatch Performance: Latenz, CPU/Akku, FPS.
+- A13: UX‑Research/Design (+QA).
+- A14: div/span ohne Rolle; img ohne alt; canvas.
+- A15: Security: IDOR; Nicht‑Security: Formularlogik. q
+- A16: Alpha.
+- A17: Beta/UAT.
+- A18: Beta: testbar, unstabil; Release: stabil, supported.
+- A19: 0.14.2: Pre‑1.0‑Release; keine Stabilitätsgarantie.
