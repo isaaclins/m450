@@ -23,3 +23,4 @@
 - A17: Beta/UAT.
 - A18: Beta: testbar, unstabil; Release: stabil, supported.
 - A19: 0.14.2: Pre‑1.0‑Release; keine Stabilitätsgarantie.
+
