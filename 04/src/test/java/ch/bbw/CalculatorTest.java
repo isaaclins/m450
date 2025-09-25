@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@Disabled("für die Übung")
+// AUFGABE 1: entfernung der @Disabled
 class CalculatorTest {
     Calculator calculator;
 
