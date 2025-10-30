@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group = 'ch.bbw'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+    mockitoAgent
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation(libs.mockito)
+    testImplementation(libs.mockito.junit.jupiter)
+    mockitoAgent(libs.mockito) {
+        transitive = false
+    }
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+    useJUnitPlatform()
+    jvmArgs += "-javaagent:${configurations.mockitoAgent.asPath}"
+}
