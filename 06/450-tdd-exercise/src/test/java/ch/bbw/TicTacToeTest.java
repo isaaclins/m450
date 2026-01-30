@@ -9,6 +9,10 @@ class TicTacToeTest {
     void setUp() {
     }
 
+    public boolean testfirstrow() {
+        TicTacToe game = new TicTacToe();
+        return game.checkWin() == 'X';
+    }
     @AfterEach
     void tearDown() {
     }
