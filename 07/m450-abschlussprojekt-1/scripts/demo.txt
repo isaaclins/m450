@@ -1,0 +1,9 @@
+# Demo game script (10x10 variant)
+# Lines can be moves (e.g. A2 A3), or commands: new game, quit
+# This demo mostly showcases normal moves + turn switching.
+
+A2 A3
+A9 A8
+A3 A4
+A8 A7
+quit
